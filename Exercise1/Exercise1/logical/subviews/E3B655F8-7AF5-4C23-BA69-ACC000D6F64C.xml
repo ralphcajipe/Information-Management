@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="E3B655F8-7AF5-4C23-BA69-ACC000D6F64C">
+<createdBy>xl38</createdBy>
+<modifiedBy>xl38</modifiedBy>
+<createdTime>2021-05-06 14:03:17 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>2</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9088E357-A1A6-B8DB-31F0-DC38900EAB62" otype="Entity" vid="B8F3579F-4400-1909-EF8F-CE8AA8933DFC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="91" y="61" width="208" height="91"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B9983921-9897-5A8D-EDCE-29279F9E66D2" otype="Entity" vid="88291B35-B137-B106-38FF-452E34F2C0A0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="480" y="52" width="245" height="112"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0BA40B84-91BA-443E-D673-4F0CA14EB1D8" otype="Relation" vid_source="B8F3579F-4400-1909-EF8F-CE8AA8933DFC" vid_target="88291B35-B137-B106-38FF-452E34F2C0A0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="309" y="76" width="48" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="426" y="109" width="48" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="299" y="106"/>
+<point x="480" y="106"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
